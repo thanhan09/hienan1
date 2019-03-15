@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- TITLE -->
+    <title>&#128157; For My Love</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="http://lmpixels.com/demo/ourlove/our-love-responsive-wedding-template-red/favicon.ico">
+
+    <!-- META TAGS -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta content="A Small Gift For You Who I Loved &#128157;" name="description">
+    <meta content="Joker Dark Knight - Mafia Scripts Việt Nam" name="copyright">
+    <meta content="Joker Dark Knight - Mafia Scripts Việt Nam" name="author">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/jquery.pagepiling.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" href="css/couple.css" type="text/css" />
+    <link rel="stylesheet" href="css/bg2.css" type="text/css" />
+    <link rel="stylesheet" href="css/authors.css" type="text/css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+
+    <!-- DO NOT MOVE THIS CODE LINE OUTSIDE <HEAD> TAG -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+    <style type="text/css">
+        #section1 img {
+            margin: 20px 0;
+            opacity: .7
+        }
+
+        #pp-nav.custom .pp-tooltip {
+            color: #AAA
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- SET BACKGROUND FOR PAGES -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#pagepiling').pagepiling({
+                direction: 'horizontal',
+                menu: '#menu',
+                anchors: ['main', 'intro', 'gallery', 'about'],
+                sectionsColor: ['url("http://i.imgur.com/jtjYUVr.png")', 'white', 'url("img/bg.jpeg")', 'url("img/bg4.png")', '#212121'],
+                navigation: {
+                    'position': 'right',
+                    'tooltips': ['Main Page', 'Intro Page', 'Gallery Page', 'About Source Code']
+                },
+                afterRender: function() {
+                    $('#pp-nav').addClass('custom');
+                },
+                afterLoad: function(anchorLink, index) {
+                    if (index > 1) {
+                        $('#pp-nav').removeClass('custom');
+                    } else {
+                        $('#pp-nav').addClass('custom');
+                    }
+                }
+            });
+        });
+    </script>
+
+    <!-- TURN ON/OFF BACKGROUND MUSIC -->
+    <div id="ofmusic">
+        <div id="musicbuton">
+            <div id="active"></div>
+        </div>
+    </div>
+
+    <div id="pagepiling">
+        <!-- CONTENT 1 / HOME PAGE -->
+        <div class="section" id="section1">
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+
+                    Typed.new("#typed", {
+                        stringsElement: document.getElementById('typed-strings'),
+                        typeSpeed: 30,
+                        backDelay: 1500,
+                        loop: false,
+                        contentType: 'html', // or text
+                        // defaults to null for infinite loop
+                        loopCount: null,
+                        callback: function() {
+                            foo();
+                        },
+                        resetCallback: function() {
+                            newTyped();
+                        }
+                    });
+
+                    var resetElement = document.querySelector('.reset');
+                    if (resetElement) {
+                        resetElement.addEventListener('click', function() {
+                            document.getElementById('typed')._typed.reset();
+                        });
+                    }
+
+                });
+
+                function newTyped() { /* A new typed object */ }
+
+                function foo() {
+                    console.log("Callback");
+                }
+            </script>
+
+            <div class="content-1" style="margin-bottom:136px;width:100%;"><img src='img/bird_couple.png' alt='For My Love' height='215' />
+                <br />
+                <div id="text">
+                    <div id="typed-strings">
+                        <span>Hello <strong>" BABY" !!,</strong></span>
+                        <p>nói gì ta... <strong>xem nhá</strong>.</p>
+                        <p>tình yêu to đùng,</p>
+                        <p>For you...!!</p>
+                        
+                    </div>
+
+                    <span id="typed" style="white-space:pre;"></span>
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <!-- CONTENT 2 / INTRODUCE PAGE -->
+        <div class="section">
+            <!-- VIDEO BACKGROUND -->
+            <div class="video-background">
+                <div class="video-foreground">
+                    <iframe src="https://www.youtube.com/embed/Lzn2hjEmfcI?controls=0&showinfo=0&rel=0&autoplay=1&loop=1" frameborder="0" allowfullscreen></iframe>
+                    <div id="color"></div>
+                </div>
+            </div>
+
+            <style>
+                .clearfix:after,
+                {
+                    clear: both;
+                }
+
+                .couple {
+                    width: 70%;
+                }
+            </style>
+
+            <!-- COUPLE -->
+            <center>
+                <div class="couple clearfix">
+                    <div class="couple-block first-block">
+                        <div class="top-block">
+                            <div class="name">
+                                <h2 class="male">An</h2>
+                                <p>Thằng điên</p>
+                                <ul class="social-links">
+                                    <li><a class="tip social-button" href="#" title="Twitter"><i class="fa fa-twitter"></i></a>
+                                    </li>
+                                    <li><a class="tip social-button" href="#" title="Facebook"><i class="fa fa-facebook"></i></a>
+                                    </li>
+                                    <li><a class="tip social-button" href="#" title="Instagram"><i class="fa fa-instagram"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="photo">
+                                <img class="photo1" src="img/authors/jokerdesu.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="bottom-block" style="font-size:16px">
+                            <p> </p>
+                        </div>
+                    </div>
+
+                    <div class="heart" style="margin-bottom:-100px">
+                        <img id="heart" src="img/heart_couple.png" alt="">
+                    </div>
+
+                    <div class="couple-block second-block">
+                        <div class="top-block">
+                            <div class="name">
+                                <h2 class="female">Hiền</h2>
+                                <p>Con điên</p>
+                                <ul class="social-links">
+                                    <li><a class="tip social-button" href="#" title="Twitter"><i class="fa fa-twitter"></i></a>
+                                    </li>
+                                    <li><a class="tip social-button" href="#" title="Facebook"><i class="fa fa-facebook"></i></a>
+                                    </li>
+                                    <li><a class="tip social-button" href="#" title="Instagram"><i class="fa fa-instagram"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="photo">
+                                <img class="photo1" src="img/5.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="bottom-block" style="font-size:16px">
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- COUNT UP -->
+                <div id="center"></div>
+                <div id="TextCounter" style="color:white;background:url('img/tiny_heart.gif');"><strong>Đã</strong> <span id="counter">
+            <script type="text/javascript">
+                // January: tháng 1
+                // February: tháng 2
+                // March: tháng 3
+                // April: tháng 4
+                // May: tháng 5
+                // June: tháng 6
+                // July: tháng 7
+                // August: tháng 8
+                // September: tháng 9
+                // October: tháng 10
+                // November: tháng 11
+                // December: tháng 12
+                new CountUp('February 16 2019 14:00:00', 'counter', "");
+            </script>
+        </span><strong>Kể từ ngày mình gặp nhau</strong>
+                </div>
+                <a href="#gallery">
+                    <h1 style="color:white" id="muiten">&#10165;</h1>
+                </a>
+                <i id="click">Click để xem tiếp</i>
+            </center>
+        </div>
+
+        <!-- CONTENT 3 / GALLERY -->
+        <div class="section" id="section3">
+            <div class="intro">
+                <iframe style="border:none;width:100%;height:100vh" src="gallery.html"></iframe>
+
+            </div>
+        </div>
+    </div>
+    <!--Style-->    
+    
+    <!--EndStyle-->
+    
+    <!-- BACKGROUND MUSIC -->
+    <iframe id="music" scrolling="yes" width="1" height="1" src="https://mp3.zing.vn/embed/song/ZW78E6A9?start=true" frameborder="0" allowfullscreen="true"></iframe>
+
+    <!-- Javascripts -->
+    <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/jquery.pagepiling.js"></script>
+    <script type="text/javascript" src="js/countup.js"></script>
+    <script src="js/typed.js" type="text/javascript"></script>
+    <script src="js/page5.js"></script>
+
+</body>
+
+</html>
